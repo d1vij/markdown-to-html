@@ -1,0 +1,211 @@
+[
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "header",
+    "size": "1",
+    "content": {
+      "type": "inline_text_block",
+      "content": [
+        { "type": "inline_text_content_token", "content": "Project Overview" }
+      ]
+    }
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "inline_text_block",
+    "content": [
+      { "type": "inline_text_content_token", "content": "This project is a " },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "tiny demonstration" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": " of " },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": "Markdown inline styling"
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": ", showing how styles can be "
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_content_token", "content": "nested and combined" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": " inside ordinary paragraphs."
+      }
+    ]
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "header",
+    "size": "2",
+    "content": {
+      "type": "inline_text_block",
+      "content": [
+        { "type": "inline_text_content_token", "content": "Installation Notes" }
+      ]
+    }
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "inline_text_block",
+    "content": [
+      {
+        "type": "inline_text_content_token",
+        "content": "To install, run the usual steps — nothing fancy, just follow the "
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "quick start" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": ". If something goes wrong, try the "
+      },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_content_token", "content": "fallback" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      {
+        "type": "inline_text_content_token",
+        "content": " instructions or consult the "
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": "[documentation](https://example.com)"
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": " for " },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "more details" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "." }
+    ]
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "header",
+    "size": "3",
+    "content": {
+      "type": "inline_text_block",
+      "content": [
+        { "type": "inline_text_content_token", "content": "Usage Examples" }
+      ]
+    }
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "inline_text_block",
+    "content": [
+      {
+        "type": "inline_text_content_token",
+        "content": "Use the CLI tool with a "
+      },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      { "type": "inline_text_content_token", "content": "--help" },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      {
+        "type": "inline_text_content_token",
+        "content": " flag to see options. You can emphasize important flags like "
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      { "type": "inline_text_content_token", "content": "--verbose" },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": " or " },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      { "type": "inline_text_content_token", "content": "--dry-run" },
+      { "type": "inline_text_modifier_token", "style": "inline_code" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      {
+        "type": "inline_text_content_token",
+        "content": " when describing commands."
+      }
+    ]
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "header",
+    "size": "2",
+    "content": {
+      "type": "inline_text_block",
+      "content": [
+        { "type": "inline_text_content_token", "content": "Styling Tricks" }
+      ]
+    }
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "inline_text_block",
+    "content": [
+      {
+        "type": "inline_text_content_token",
+        "content": "You can combine styles, for example "
+      },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "bold text with " },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_content_token", "content": "italic inside" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": " or " },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_content_token", "content": "italic text with " },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_content_token", "content": "bold inside" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "bold" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      {
+        "type": "inline_text_content_token",
+        "content": ". You can also strike things out like "
+      },
+      { "type": "inline_text_modifier_token", "style": "striked" },
+      { "type": "inline_text_modifier_token", "style": "striked" },
+      { "type": "inline_text_content_token", "content": "deprecated " },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_content_token", "content": "old-method" },
+      { "type": "inline_text_modifier_token", "style": "italics" },
+      { "type": "inline_text_modifier_token", "style": "striked" },
+      { "type": "inline_text_modifier_token", "style": "striked" },
+      {
+        "type": "inline_text_content_token",
+        "content": " while keeping emphasis."
+      }
+    ]
+  },
+  { "type": "inline_text_block", "content": [] },
+  {
+    "type": "header",
+    "size": "3",
+    "content": {
+      "type": "inline_text_block",
+      "content": [
+        { "type": "inline_text_content_token", "content": "Final Notes" }
+      ]
+    }
+  },
+  { "type": "inline_text_block", "content": [] },
+  { "type": "inline_text_block", "content": [] }
+]
