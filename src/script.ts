@@ -1,5 +1,5 @@
 import { Tokenizer } from "./tokenizer.js";
-import {writeFile} from "fs/promises";
+import { writeFile } from "fs/promises";
 //console.log(Tokenizer.tokenize("Normal Text"));
 //console.log(Tokenizer.tokenize("*Bold text*"));
 //console.log(Tokenizer.tokenize("_Italics_"));
@@ -9,8 +9,11 @@ import {writeFile} from "fs/promises";
 //console.log(Tokenizer.tokenize("~Italics~ *bold* ~striked~"));
 //console.log(Tokenizer.tokenize("~Italics *bold nested* italics~"));
 
-async function main(){
-    await writeFile("tokenzied.json",JSON.stringify(Tokenizer.tokenize(`
+async function main() {
+  await writeFile(
+    "tokenzied.json",
+    JSON.stringify(
+      Tokenizer.tokenize(`
 # Project Overview
 
 This project is a *tiny demonstration* of **Markdown inline styling**, showing how styles can be **_nested and combined_** inside ordinary paragraphs.
@@ -29,9 +32,9 @@ You can combine styles, for example **bold text with _italic inside_** or _itali
 
 ### Final Notes
 
-`)));
-
+`),
+    ),
+  );
 }
 
 main().catch(console.log);
-

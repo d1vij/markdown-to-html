@@ -29,14 +29,14 @@ export interface ParagraphNode extends MarkdownNode {
 }
 
 export interface InlineTextModifierToken extends Token {
-    type: "inline_text_modifier_token";
-    style: InlineModifiers;
+  type: "inline_text_modifier_token";
+  style: InlineModifiers;
 }
 export interface InlineTextContentToken {
-    type: "inline_text_content_token"
-    content: string
+  type: "inline_text_content_token";
+  content: string;
 }
 export interface InlineTextToken extends Token {
-    type: "inline_text_block",
-    content: (InlineTextContentToken | InlineTextModifierToken)[]
+  type: "inline_text_block";
+  content: (InlineTextContentToken | InlineTextModifierToken)[];
 }
